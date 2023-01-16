@@ -1,7 +1,10 @@
 
 
 import React, { Component } from "react";
+import './estilos/formu.css';
+import './estilos/tabla.css';
 import './App.css';
+
 import PersonCard from './Recursos/PersonCard';
 import Menu from './Recursos/Menu';
 import Input from './Recursos/Input';
@@ -41,7 +44,8 @@ class App extends Component {
 
         <Input AddLista= {this.AddLista} ></Input>
         
-     
+     <div class="tabla" ><p>Lista de Estudiantes</p></div>
+     <div class="tabla">
         <table>
           <thead>
             <tr>
@@ -61,7 +65,7 @@ class App extends Component {
          
           </tbody>
         </table>
-    
+        </div>
        
 
 

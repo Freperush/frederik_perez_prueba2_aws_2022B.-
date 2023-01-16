@@ -1,0 +1,21 @@
+div.user-input{
+    background-color: aquamarine;
+
+        border-radius: 46px;
+        width: 89%;
+        height: 90%;
+        display: inline-block;
+
+}
+
+.texto{
+    color: blue;
+}
+.largo{
+    width: 70%;
+    margin: 5%;
+}
+
+.sepa1{
+    margin: 5%;
+}

@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  background-color: bisque;
+  padding-top: 4%;
+  border-radius: 46px;
+        width: 77%;
+        height: 90%;
+        margin-left: 10%;
+        padding: 5%;
 }
 
 .App-logo {

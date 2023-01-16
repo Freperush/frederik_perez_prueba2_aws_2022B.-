@@ -30,11 +30,23 @@ class Input extends Component {
 
   render() {
     return (
-      <div className='user-input'>
-        <input type='text' placeholder='Name' name='name' value={this.state.name} onChange={this.handleChange} />
+     
+      <div className='user-input' >
+        <div>
+          <p  >Ingreso de calificaciones</p>
+        </div>
+        <div className='sepa1'>
+        <label  for="name">First name:</label>
+        <input className='largo' type='text' placeholder='Name' name='name' value={this.state.name} onChange={this.handleChange} /><br></br>
+        </div>
+        
+        <div className='sepa2'>
+        <label for="nota1">Calificacion 1:  </label>
         <input type='text' placeholder='Nota1' name='nota1' value={this.state.nota1} onChange={this.handleChange} />
+        <label for="nota2">Calificacion 1:  </label>
         <input type='text' placeholder='Nota2' name='nota2' value={this.state.nota2} onChange={this.handleChange} />
-        <p>El ingreos fue: {this.state.resul} </p>
+        </div>
+        <p className='texto' >El ingreos fue: {this.state.resul} </p>
         <button onClick={() => this.handlerSelect(this.props)}>AGREGAR</button>
       </div>
     );
